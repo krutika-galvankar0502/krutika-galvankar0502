@@ -47,34 +47,36 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 
 ## Featured projects
 
-### Lighthouse Fix Generator
-> Turn Lighthouse warnings into copy-paste ready code fixes — powered by AI
-
-- Enter a URL → real Lighthouse data via **Google PageSpeed Insights API**
-- AI (Claude) generates **before/after code snippets** for each failing audit
-- Tailored fixes based on your tech stack (React, AEM, plain HTML, etc.)
-- Built with: **React, Vite, Claude API, Google PageSpeed API**
-
----
-
-### AI Document Assistant
+### AI Document Assistant — Internal Innovation Competition
 > Upload a PDF → get an instant summary + ask questions about its content
 
 - Built for an internal **innovation competition at Palo Alto Networks**
-- Combines **Python backend** + **OpenAI API** for PDF processing and Q&A
+- Combines **Python backend** + **OpenAI API** for PDF processing, summary extraction and conversational Q&A
 - Front-end UI with file upload, real-time response rendering, and conversational interface
 - Built with: **JavaScript, Python, OpenAI API**
 
 ---
 
-### Identity & Access UI — Palo Alto Networks
+### Identity & Access UI — Customer, Partner & Employee Portal
 > Global authentication hub for customers, partners, and employees
 
-- SSO sign-in, Google & LinkedIn OAuth, multi-step registration with progressive field disclosure
-- Okta REST API + OAuth 2.0 integration with full user state management
+- Built end-to-end front-end for a global auth hub — SSO sign-in, Google & LinkedIn OAuth, multi-step registration with progressive field disclosure
+- Integrated Okta REST APIs and OAuth 2.0 providers to manage user states across registration, email verification, account activation, and SSO handoff
 - WCAG 2.1 AA compliant, mobile-first, cross-browser compatible
 - Live at: [paloaltonetworks.com/login](https://www.paloaltonetworks.com/login)
-- Built with: **JavaScript (ES6+), Okta SDK, HTML5, CSS3, AEM**
+- Built with: **JavaScript (ES6+), Okta SDK, OAuth 2.0, HTML5, CSS3**
+
+---
+
+### Performance Engineering: Core Web Vitals Optimisation
+> 30% platform-wide improvement across high-traffic global domains
+
+- Spearheaded remediation of INP, LCP, and CLS failures across Palo Alto Networks' global web properties
+- Resolved INP bottlenecks by refactoring JavaScript to eliminate long tasks, reducing main-thread blocking to under 200ms
+- Optimised LCP and CLS via resource preloading, hero-media optimisation, and stabilising dynamic content
+- Established Lighthouse CI and Web Vitals benchmarks for consistent high-speed delivery
+- Live at: [paloaltonetworks.com](https://www.paloaltonetworks.com/)
+- Built with: **JavaScript (ES6+), Lighthouse CI, Web Vitals library, HTML5, CSS3**
 
 ---
 
