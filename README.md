@@ -38,6 +38,7 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 
 **AI & LLM**
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 **Cloud & Certifications**
@@ -46,6 +47,18 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 ---
 
 ## Featured projects
+
+### Web Audit Agent — AI-Powered Website Auditor
+> Analyze any website's performance, SEO, accessibility, and security — powered by multi-agent AI
+
+- Built a **multi-agent AI system** using **Claude (Anthropic)** to audit web pages across 4 dimensions in parallel: Health Check, Web Vitals, SEO, and Accessibility
+- Health Check agent uses **Claude's tool-use API** to intelligently inspect critical resources — render-blocking scripts, third-party trackers, and security headers
+- Web Vitals powered by **PageSpeed Insights API** for both mobile and desktop, with AI-generated root-cause fixes and business impact summaries per metric
+- **Competitor comparison** feature runs all 4 agents on two sites simultaneously, producing a scored side-by-side breakdown with a category winner
+- Live at: [web-audit-agent.vercel.app](https://web-audit-agent.vercel.app/audit) &nbsp;|&nbsp; 🎬 [Watch demo](https://www.loom.com/share/e2a60d90cfb4433b9cb0435dd5c0e164)
+- Built with: **JavaScript, Claude API (Anthropic), PageSpeed Insights API, Vercel Serverless Functions**
+
+---
 
 ### AI Document Assistant — Internal Innovation Competition
 > Upload a PDF → get an instant summary + ask questions about its content
