@@ -39,7 +39,6 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 **AI & LLM**
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=flat&logo=anthropic&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 **Cloud & Certifications**
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
