@@ -54,7 +54,7 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 - Health Check agent uses **Claude's tool-use API** to intelligently inspect critical resources — render-blocking scripts, third-party trackers, and security headers
 - Web Vitals powered by **PageSpeed Insights API** for both mobile and desktop, with AI-generated root-cause fixes and business impact summaries per metric
 - **Competitor comparison** feature runs all 4 agents on two sites simultaneously, producing a scored side-by-side breakdown with a category winner
-- 🎬 [Watch demo](https://www.loom.com/share/e2a60d90cfb4433b9cb0435dd5c0e164)
+- 🌐 [Live app](https://web-audit-agent.vercel.app) &nbsp;|&nbsp; 🐙 [Source code](https://github.com/krutika-galvankar0502/web-audit-agent)
 - Built with: **JavaScript, Claude API (Anthropic), PageSpeed Insights API, Vercel Serverless Functions**
 
 ---
