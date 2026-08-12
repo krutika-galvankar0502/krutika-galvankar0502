@@ -39,6 +39,8 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 **AI & LLM**
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=flat&logo=anthropic&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat&logo=langfuse&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 **Cloud & Certifications**
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
@@ -47,15 +49,18 @@ I'm currently expanding into **AI-powered web applications** — building tools 
 
 ## Featured projects
 
-### Web Audit Agent — AI-Powered Website Auditor
-> Analyze any website's performance, SEO, accessibility, and security — powered by multi-agent AI
+### WebScore (webscore.dev) — AI-Powered Website Auditor
+> Audit any website's performance, SEO, accessibility, security, and AI visibility — five specialised agents, results in under 2 minutes
 
-- Built a **multi-agent AI system** using **Claude (Anthropic)** to audit web pages across 4 dimensions in parallel: Health Check, Web Vitals, SEO, and Accessibility
-- Health Check agent uses **Claude's tool-use API** to intelligently inspect critical resources — render-blocking scripts, third-party trackers, and security headers
-- Web Vitals powered by **PageSpeed Insights API** for both mobile and desktop, with AI-generated root-cause fixes and business impact summaries per metric
-- **Competitor comparison** feature runs all 4 agents on two sites simultaneously, producing a scored side-by-side breakdown with a category winner
-- 🌐 [Live app](https://web-audit-agent.vercel.app) &nbsp;|&nbsp; 🐙 [Source code](https://github.com/krutika-galvankar0502/web-audit-agent)
-- Built with: **JavaScript, Claude API (Anthropic), PageSpeed Insights API, Vercel Serverless Functions**
+- Built a **multi-agent AI system** using **Claude (Anthropic)** to audit web pages across 5 dimensions in parallel: Health Check, Web Vitals, SEO, Accessibility, and AI Visibility (GEO)
+- **RAG-powered recommendations** — every agent searches an Upstash Vector knowledge base of best practices before generating fixes, grounding Claude in verified standards
+- **GEO Brand Monitor** queries live AI engines (Gemini, ChatGPT, Perplexity) with real industry questions and measures brand mention rate, citation rate, and prominence — returning a 0–100 AI Share of Voice score
+- Health Check agent uses **Claude's tool-use API** to inspect security headers (CSP, HSTS, X-Frame-Options), render-blocking scripts, and third-party resource performance
+- Web Vitals powered by **PageSpeed Insights API** for mobile and desktop, with Chrome UX Report real-user data and AI-generated root-cause fixes per metric
+- **Competitor comparison**, **What-If Score Simulator**, **PDF export**, and **dashboard** with scan history — all free, no account required to audit
+- LLM calls traced and monitored with **Langfuse** for observability across all five agents
+- 🌐 [Live app](https://webscore.dev) &nbsp;|&nbsp; 🐙 [Source code](https://github.com/krutika-galvankar0502/web-audit-agent)
+- Built with: **React, JavaScript, Claude API (Anthropic), Upstash Vector (RAG), Upstash Redis, PageSpeed Insights API, Langfuse, Vercel Edge Functions**
 
 ---
 
